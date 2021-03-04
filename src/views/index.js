@@ -11,3 +11,4 @@ export { default as SummaryIntroView } from "./SummaryIntro";
 export { default as SummaryView } from "./Summary";
 export { default as FinalizeView } from "./Finalize";
 export { default as PreviewView } from "./Preview";
+export { default as TemplatesList } from "./TemplatesList"

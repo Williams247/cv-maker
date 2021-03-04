@@ -253,3 +253,58 @@ h1.jumbo {
     line-height: 44px;
   }
 }
+
+.flex-item {
+  display: flex;
+}
+
+.flex-direction-row-column {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-item-center {
+  justify-content: center;
+}
+
+.card-top-bottom-space {
+  padding-top: 75px;
+}
+
+.single-card {
+  margin: 18px
+}
+
+@media (max-width: 765px) {
+  #landing-page-text {
+    font-size: 3rem;
+    margin-top: 200px;
+  }
+}
+
+#landing-page-text {
+  font-size: 3rem;
+}
+
+.spinner {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  animation: rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;
+  animation-duration: 888ms;
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg)}
+  to {transform: rotate(360deg)}
+}

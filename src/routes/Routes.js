@@ -12,7 +12,8 @@ import {
     SummaryIntroView,
     SummaryView,
     FinalizeView,
-    PreviewView
+    PreviewView,
+    TemplatesList
 } from "../views";
 import {
     ExperienceIntro
@@ -30,6 +31,12 @@ const Routes = () => {
                 exact
                 component={LandingView}
                 path="/"
+            />
+            <WithLayout 
+                layout={BlankLayout}
+                title="TemplateList"
+                component={TemplatesList}
+                path="/template-list"
             />
             <WithLayout
                 layout={WithPreviewLayout}
